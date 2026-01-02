@@ -16,7 +16,7 @@ class UserRepo(BaseRepo):
     def delete_todo(self, todo_id: int):
         todo = self.session.query(TODO).filter_by(id=todo_id).first()
         if not todo:
-            raise HTTPException(status_code=400, detail="Todo does not exist")
+            raise HTTPException(status_code=404, detail="Todo does not exist")
         
         self.session.delete(todo)
         self.session.commit()
