@@ -1,27 +1,25 @@
-📝 Todo Backend
+# 📝 Todo Backend
 
 A simple FastAPI backend for managing todos. Can be easily linked with a React frontend for a full-stack experience.
 
-⚡ Features
+## ⚡ Features
 
-✅ Create, read, and delete todos
+- ✅ Create, read, and delete todos
 
-🔍 Fetch all todos for a specific user
+- 🔍 Fetch all todos for a specific user
 
-🌐 Ready to integrate with any frontend framework
+- 🌐 Ready to integrate with any frontend framework
 
-🔧 WIP / To Do
+- 🔧 WIP / To Do
 
-✏️ Add modify/update todos feature
+- ✏️ Add modify/update todos feature
 
-🚀 Usage
+## 🚀 Usage
 
-Clone the repository
+### Clone the repository
+### Install dependencies:
+- pip install -r requirements.txt
 
-Install dependencies:
- pip install -r requirements.txt
-
-
-Run the FastAPI server:
- uvicorn main:app --reload
+### Run the FastAPI server:
+- uvicorn main:app --reload
 
